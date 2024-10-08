@@ -1,0 +1,35 @@
+1  write a program to find the how many digite in the given number?¶
+
+slo
+x=int(input())
+z=str(a)
+tot_digit=0
+for i in z:
+    tot_digit+=1
+print(tot_digit)
+
+
+2  write a program to print all numbers between n and n1 (n and n1 inclusive.) using a while loop?
+
+sol
+
+n=int(input("enter the number"))
+n1=int(input("enter the second number"))
+while n>=n1:
+    pass
+else:
+    for i in range(n,n1+1):
+        print(i)
+
+
+3print the table in formate ?
+
+
+sol
+n=int(input("enter the number"))
+product=1
+num=1
+while(num<=10):
+    product=n*num
+    print(num,"*",n,"=",product)
+    num= num+1
